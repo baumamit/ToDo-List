@@ -1,8 +1,7 @@
 :root {
     --lightgreen: #d2efe8; 
-    --green: #2CA9BC;
-    --yellow: #EAC4D5;
-    --blue: #344bc9;
+    --lightblue: #2CA9BC;
+    --pink: #EAC4D5;
 }
 
 * {
@@ -62,7 +61,7 @@ body {
 
                 .todo-check {
                     padding: 16px;
-                    background-color: var(--yellow);
+                    background-color: var(--pink);
                     border-radius: 16px 0 0 16px;
                     cursor: pointer;
                 }
@@ -76,7 +75,7 @@ body {
                 width: 50px;
             }
         }
-        
+
         .add-todo {
             display: flex;
             gap: 8px;
@@ -96,7 +95,7 @@ body {
                 padding: 16px;
                 border: none;
                 border-radius: 8px;
-                background-color: var(--yellow);
+                background-color: var(--pink);
                 cursor: pointer;
 
                 img {
@@ -109,7 +108,7 @@ body {
     .panel {
         padding: 16px;
         border-radius: 16px;
-        background-color: var(--green);
+        background-color: var(--lightblue);
     }
 
 }

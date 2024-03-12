@@ -1,8 +1,7 @@
 :root {
   --lightgreen: #d2efe8;
-  --green: #2CA9BC;
-  --yellow: #EAC4D5;
-  --blue: #344bc9;
+  --lightblue: #2CA9BC;
+  --pink: #EAC4D5;
 }
 
 * {
@@ -25,27 +24,25 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
-header {
+.container header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 16px;
 }
-header h1 {
+.container header h1 {
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
-header img {
+.container header img {
   width: 50px;
 }
-
-main .empty-list-message {
+.container main .empty-list-message {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
 }
-main .todo-list .todo-item {
+.container main .todo-list .todo-item {
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -53,43 +50,42 @@ main .todo-list .todo-item {
   margin: 16px 0;
   border-radius: 16px;
 }
-main .todo-list .todo-item .todo-check {
+.container main .todo-list .todo-item .todo-check {
   padding: 16px;
-  background-color: var(--yellow);
+  background-color: var(--pink);
   border-radius: 16px 0 0 16px;
   cursor: pointer;
 }
-main .todo-list .todo-item .todo-text {
+.container main .todo-list .todo-item .todo-text {
   padding: 16px;
 }
-main .todo-list img {
+.container main .todo-list img {
   width: 50px;
 }
-main .add-todo {
+.container main .add-todo {
   display: flex;
   gap: 8px;
   margin-top: 16px;
 }
-main .panel input {
+.container main .panel input {
   font-size: 16px;
   padding: 16px;
   border-radius: 8px;
   border: none;
   flex-grow: 1;
 }
-main .panel button {
+.container main .panel button {
   padding: 16px;
   border: none;
   border-radius: 8px;
-  background-color: var(--yellow);
+  background-color: var(--pink);
   cursor: pointer;
 }
-main .panel button img {
+.container main .panel button img {
   width: 30px;
 }
-
-.panel {
+.container .panel {
   padding: 16px;
   border-radius: 16px;
-  background-color: var(--green);
+  background-color: var(--lightblue);
 }/*# sourceMappingURL=style.css.map */
