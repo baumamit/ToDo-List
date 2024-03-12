@@ -1,0 +1,95 @@
+:root {
+  --lightgreen: #d2efe8;
+  --green: #2CA9BC;
+  --yellow: #EAC4D5;
+  --blue: #344bc9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  background-color: var(--lightgreen);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+header h1 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+header img {
+  width: 50px;
+}
+
+main .empty-list-message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+main .todo-list .todo-item {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  background-color: white;
+  margin: 16px 0;
+  border-radius: 16px;
+}
+main .todo-list .todo-item .todo-check {
+  padding: 16px;
+  background-color: var(--yellow);
+  border-radius: 16px 0 0 16px;
+  cursor: pointer;
+}
+main .todo-list .todo-item .todo-text {
+  padding: 16px;
+}
+main .todo-list img {
+  width: 50px;
+}
+main .add-todo {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+main .panel input {
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  flex-grow: 1;
+}
+main .panel button {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+main .panel button img {
+  width: 30px;
+}
+
+.panel {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: var(--green);
+}/*# sourceMappingURL=style.css.map */
