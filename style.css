@@ -60,7 +60,7 @@ body {
   padding: 16px;
 }
 .container main .todo-list img {
-  width: 50px;
+  width: 40px;
 }
 .container main .add-todo {
   display: flex;
